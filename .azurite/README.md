@@ -43,6 +43,13 @@ Check if these ports are active:
 lsof -i :10000
 lsof -i :10001
 ```
+> Returns
+```powershell
+COMMAND   PID   USER   FD   TYPE DEVICE              SIZE/OFF NODE NAME
+node    44029   me     16u  IPv4 0xafe13f2d29704696  0t0      TCP  localhost:ndmp (LISTEN)
+COMMAND   PID   USER   FD   TYPE DEVICE              SIZE/OFF NODE NAME
+node    44029   me     17u  IPv4 0x69b829b0e1cd50b   0t0      TCP  localhost:scp-config (LISTEN)
+```
 
 If Azurite is running, you should see an active process.
 
