@@ -1,9 +1,17 @@
 {
-    "bindings": [
-        {
-            "type": "activityTrigger",
-            "direction": "in",
-            "name": "input"
-        }
-    ]
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "direction": "in",
+      "authLevel": "function",
+      "name": "req",
+      "methods": ["post"]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }
+  ]
 }

@@ -1,7 +1,6 @@
-
 from collections import defaultdict
 
-def main(map_results):
+def main(results: list) -> dict:
     shuffled_data = defaultdict(list)
     for result in map_results:
         for word, count in result:

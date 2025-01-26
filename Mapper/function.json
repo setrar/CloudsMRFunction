@@ -1,9 +1,10 @@
 {
+    "scriptFile": "__init__.py",
     "bindings": [
         {
             "type": "activityTrigger",
             "direction": "in",
-            "name": "input"
+            "name": "line"
         }
     ]
 }
