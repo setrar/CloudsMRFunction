@@ -9,6 +9,15 @@
 cd .azurite && azurite &
 ```
 
+# Clear Cache
+
+```
+rm -rf .azurefunctions
+rm -rf __pycache__
+rm -rf .python_packages
+pip install -r requirements.txt --target=.python_packages/lib/site-packages
+```
+
 
 ## Tests
 
