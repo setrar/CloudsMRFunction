@@ -108,3 +108,43 @@ az storage account show-connection-string \
 
 Replace `UseDevelopmentStorage=true` with the retrieved connection string.
 
+# References
+
+```
+npm info azurite
+```
+> Returns
+```powershell
+
+azurite@3.33.0 | MIT | deps: 22 | versions: 155
+An open source Azure Storage API compatible server
+https://github.com/azure/azurite#readme
+
+keywords: Azurite, Azure, Storage, Blob, Queue, Emulator, Microsoft
+
+bin: azurite, azurite-blob, azurite-queue, azurite-table
+
+dist
+.tarball: https://registry.npmjs.org/azurite/-/azurite-3.33.0.tgz
+.shasum: 568f192b5d54cd71f53a8d21c7ace36945c9b63e
+.integrity: sha512-GakEj0w7jjDVdQ8Nm3K+MooQxQpFBxCrWA470YFj0Na5/GKFvXtGZQ/3rj2f75jz0X8eJDDVPE1FhoSyfdWH9Q==
+.unpackedSize: 4.1 MB
+
+dependencies:
+@azure/ms-rest-js: ^1.5.0  express: ^4.16.4           lokijs: ^1.5.6             rimraf: ^3.0.2             to-readable-stream: ^2.1.0 winston: ^3.1.0            
+args: ^5.0.1               fs-extra: ^11.1.1          morgan: ^1.9.1             sequelize: ^6.31.0         tslib: ^2.3.0              xml2js: ^0.6.0             
+axios: ^0.27.0             glob-to-regexp: ^0.4.1     multistream: ^2.1.1        stoppable: ^1.1.0          uri-templates: ^0.2.0      
+etag: ^1.8.1               jsonwebtoken: ^9.0.0       mysql2: ^3.10.1            tedious: ^16.7.0           uuid: ^3.3.2               
+
+maintainers:
+- xiaonli <xiaoning.liu.leon@gmail.com>
+- edwin-huber <edwin.huber@microsoft.com>
+- vinjiang <VJ_MSFT@live.com>
+- weiwei0430 <weiwei@microsoft.com>
+- emmazhu <emmazhu@microsoft.com>
+
+dist-tags:
+alpha: 3.9.0-table-alpha.1  latest: 3.33.0              legacy: 2.7.1               
+
+published 3 months ago by emmazhu <emmazhu@microsoft.com>
+```
